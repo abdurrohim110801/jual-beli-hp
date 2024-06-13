@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Jual Beli HP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            display: inline-block;
+        }
+
+        nav ul li a:hover {
+            background-color: #45a049;
+            border-radius: 5px;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+
+        .product-card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 1rem;
+            text-align: center;
+            width: 200px;
+        }
+
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 1rem;
+        }
+
+        .product-card h3 {
+            margin: 0.5rem 0;
+        }
+
+        .product-card p {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 0.5rem 1rem;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 0.5rem 0;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Toko Jual Beli HP</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="products">
+            <h2>Produk Terbaru</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/150" alt="Phone 1">
+                    <h3>Phone 1</h3>
+                    <p>Rp 3,000,000</p>
+                    <button>Beli Sekarang</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/150" alt="Phone 2">
+                    <h3>Phone 2</h3>
+                    <p>Rp 4,500,000</p>
+                    <button>Beli Sekarang</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/150" alt="Phone 3">
+                    <h3>Phone 3</h3>
+                    <p>Rp 5,000,000</p>
+                    <button>Beli Sekarang</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/150" alt="Phone 4">
+                    <h3>Phone 4</h3>
+                    <p>Rp 2,500,000</p>
+                    <button>Beli Sekarang</button>
+                </div>
+                <!-- Tambahkan produk lainnya di sini -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Toko Jual Beli HP. All rights reserved.</p>
+    </footer>
+</body>
+</html>
